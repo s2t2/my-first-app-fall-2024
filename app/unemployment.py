@@ -3,11 +3,12 @@
 # LOCAL DEV (ENV VARS)
 
 import os
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-#load_dotenv()
+load_dotenv() # looks in the ".env" file for env vars
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
+print(API_KEY)
 
 import requests
 import json
