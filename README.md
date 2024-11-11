@@ -59,3 +59,22 @@ ALPHAVANTAGE_API_KEY="..."
 
 python app/unemployment.py
 ```
+
+
+Run the stocks report:
+
+```sh
+python app/stocks.py
+```
+
+Run the email sender:
+
+```sh
+python app/email_service.py
+```
+
+Run the RPS game:
+
+```sh
+python app/rps.py
+```
